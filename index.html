@@ -1,48 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bootstrap 101 Template</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>日間統計</title>
 
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+    <style>
+      #window {
+        padding-top: 20px;
+      }
+    </style>
 
-	</head>
-	<body>
-		<div class="row">
-			<div class="col-xs-6 col-xs-offset-3">
-				<div class="well">
-		<form class="form-horizontal" role="form" method="POST" action="//forms.brace.io/600913.li+jozen@gmail.com">
-			<div class="form-group">
-				<label for="cream" class="col-xs-2 control-label">cream</label>
-				<div class="col-xs-10">
-					<input id="cream" name="cream" type="number" class="form-control">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="" class="col-xs-2 control-label">clenzen</label>
-				<div class="col-xs-10">
-					<input name="clenzen" type="number" class="form-control">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="" class="col-xs-2 control-label">comment</label>
-				<div class="col-xs-10">
-					<textarea name="comment" cols="30" rows="10"></textarea>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-xs-offset-2 col-xs-10">
-					<button type="submit" class="btn btn-primary">送信</button>
-					<button type="reset" class="btn btn-default">リセット</button>
-				</div>
-			</div>
-		</form>
-				</div>
-			</div>
-		</div>
-		
-	</body>
+  </head>
+  <body>
+    <div id="window" class="container">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3 well">
+          <form class="form-horizontal" role="form" method="POST" action="//forms.brace.io/600913.li+jozen@gmail.com">
+            <div class="form-group">
+              <label for="p8" class="col-xs-4 control-label">クレンジング</label>
+              <div class="col-xs-8">
+                <input id="p8" name="クレンジング" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p9" class="col-xs-4 control-label">ウォッシュクリーム</label>
+              <div class="col-xs-8">
+                <input id="p9" name="ウォッシュクリーム" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p10" class="col-xs-4 control-label">ローション</label>
+              <div class="col-xs-8">
+                <input id="p10" name="ローション" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p11" class="col-xs-4 control-label">エッセンス</label>
+              <div class="col-xs-8">
+                <input id="p11" name="エッセンス" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p12" class="col-xs-4 control-label">ホワイトゼリー</label>
+              <div class="col-xs-8">
+                <input id="p12" name="ホワイトゼリー" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p13" class="col-xs-4 control-label">スキンゼリー</label>
+              <div class="col-xs-8">
+                <input id="p13" name="スキンゼリー" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p14" class="col-xs-4 control-label">ハンドクリーム</label>
+              <div class="col-xs-8">
+                <input id="p14" name="ハンドクリーム" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p15" class="col-xs-4 control-label">トライアル</label>
+              <div class="col-xs-8">
+                <input id="p15" name="トライアル" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p16" class="col-xs-4 control-label">デイミルク</label>
+              <div class="col-xs-8">
+                <input id="p16" name="デイミルク" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p1" class="col-xs-4 control-label">スキンローション</label>
+              <div class="col-xs-8">
+                <input id="p1" name="スキンローション" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p2" class="col-xs-4 control-label">乳液</label>
+              <div class="col-xs-8">
+                <input id="p2" name="乳液" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p3" class="col-xs-4 control-label">クリアスキンエッセンス</label>
+              <div class="col-xs-8">
+                <input id="p3" name="クリアスキンエッセンス" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p4" class="col-xs-4 control-label">アイセラム</label>
+              <div class="col-xs-8">
+                <input id="p4" name="アイセラム" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p5" class="col-xs-4 control-label">クリーム</label>
+              <div class="col-xs-8">
+                <input id="p5" name="クリーム" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p6" class="col-xs-4 control-label">クリアスキンセット</label>
+              <div class="col-xs-8">
+                <input id="p6" name="クリアスキンセット" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p7" class="col-xs-4 control-label">G7セット</label>
+              <div class="col-xs-8">
+                <input id="p7" name="G7セット" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="p17" class="col-xs-4 control-label">売上</label>
+              <div class="col-xs-8">
+                <input id="p17" name="売上" type="number" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="comment" class="col-xs-4 control-label">備考</label>
+              <div class="col-xs-8">
+                <textarea id="comment" class="form-control" name="備考" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-offset-4 col-xs-8">
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> 送信</button>
+                <button type="reset" class="btn btn-default">リセット</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
